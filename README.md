@@ -23,8 +23,10 @@ Syarat :
 
 UNTUK LOGIN KE APLIKASI
 ============================
-- ketikan pada browser http://localhost/siakad-poltekgt/admin
-- Login:
+1. ketikan pada browser http://localhost/siakad-poltekgt/admin
+
+2. Login:
+
 Administrator
 - Username: admin
 - password: admin
