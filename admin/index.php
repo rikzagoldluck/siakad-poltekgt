@@ -57,6 +57,7 @@ $up = mysqli_num_rows($jur_up);
   <link rel="stylesheet" href="<?= base('assets/css/admin.css'); ?>" media="screen" title="no title">
   <link rel="stylesheet" href="<?= base('assets/css/bootstrap.css'); ?>" media="screen" title="no title">
   <link rel="stylesheet" href="<?= base('assets/css/sweetalert.css'); ?>" media="screen" title="no title">
+  <link rel="stylesheet" href="<?= base('assets/css/themify-icons.css');?>">
   <link rel="stylesheet" href="<?= base('assets/dataTables/css/dataTables.bootstrap.css'); ?>" media="screen" title="no title">
   <link rel="shrotcut icon" href="<?= base('images/favicon.png'); ?>">
   <script type="text/javascript" src="<?= base('assets/js/jquery.js'); ?>"></script>
@@ -193,15 +194,15 @@ $up = mysqli_num_rows($jur_up);
     <nav class="navbar navbar-second navbar-fixed-top" style="margin-top:50px;">
       <div class="container">
         <div class="row">
-          <div class="collapse navbar-collapse navbar-left">
+          <div class="collapse navbar-collapse navbar-left horizontal-menu">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="<?= base('admin/dashboard'); ?>">Dashboard</a></li>
+              <li class="active"><a href="<?= base('admin/dashboard'); ?>"><i class="ti-dashboard"></i><span> Dashboard</span></a></li>
               <li class="dropdown data-utama">
                 <a class="dropdown-toggle" id="dropdown" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Master Data <span class="caret"></span> </a>
                 <ul class="dropdown-menu menu-data">
                   <li><a href="<?= base('admin/jadwal'); ?>">Data Jadwal</a></li>
-                  <li><a href="<?= base('admin/guru'); ?>">Data Guru</a></li>
-                  <li><a href="<?= base('admin/siswa'); ?>">Data Siswa</a></li>
+                  <li><a href="<?= base('admin/guru'); ?>">Data Dosen</a></li>
+                  <li><a href="<?= base('admin/siswa'); ?>">Data Mahasiswa</a></li>
                 </ul>
               </li>
               <li class="dropdown data-nilai">
@@ -213,7 +214,7 @@ $up = mysqli_num_rows($jur_up);
               </li>
               <li><a href="<?= base('admin/kelas'); ?>">Kelas</a></li>
               <li class="dropdown data-mapel">
-                <a href="<?= base('admin/mata-pelajaran'); ?>">Mata Pelajaran  <span class="caret"></span></a>
+                <a href="<?= base('admin/mata-pelajaran'); ?>">Mata Kuliah  <span class="caret"></span></a>
                 <ul class="dropdown-menu menu-mapel">
                   <li><a href="<?= base('admin/data-deskripsi'); ?>">Deskripsi</a></li>
                   <li><a href="<?= base('admin/data-kkm'); ?>">KKM</a></li>
@@ -224,6 +225,7 @@ $up = mysqli_num_rows($jur_up);
               <li><a href="<?= base('admin/pesan'); ?>">Pesan</a></li>
               <li><a href="<?= base('admin/pengumuman'); ?>">Pengumuman</a></li>
               <li><a href="<?= base('admin/pengaturan'); ?>">Pengaturan</a></li>
+              <li><a href="<?= base('admin/logout'); ?>">Logout</a></li>
             </ul>
           </div>
         </div> <!-- end of class row -->

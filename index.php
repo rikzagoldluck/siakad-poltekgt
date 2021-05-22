@@ -34,7 +34,7 @@ $xyz = $cekmgg%2;
     <nav class="navbar navbar-default navbar-fixed-top" style="background:#428bca !important;color:#fff !important;box-shadow: 0px 0px 5px #222;">
       <div class="container">
         <div class="navbar-header">
-          <a href="#" class="navbar-brand"><img src="<?= base('images/main-logo.png'); ?>" width="175px" alt="" class="img img-responsive"></a>
+          <a href="#" class="navbar-brand">logo<img src="" width="175px" alt="" class="img img-responsive"></a>
         </div> <!-- end of class navbar-header -->
         <div class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">

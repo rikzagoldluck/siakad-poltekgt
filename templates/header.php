@@ -47,8 +47,8 @@ $hasil = substr($server, 8);
 <body>
 	<nav class="navbar navbar-default navbar-fixed-top">
 	    <div class="container">
-	      <div class="navbar-header">
-	        <a href="" class="navbar-brand"><img src="<?= base('images/main-logo.png'); ?>" width="200px" alt="" class="img img-responsive"></a>
+	      <div class="navbar-header"> 
+	        <a href="" class="navbar-brand"><img src="" width="200px" alt="" class="img img-responsive"></a>
 	      </div> <!-- end of class navbar-header -->
 				<div class="collapse navbar-collapse navbar-right">
 					<ul class="nav navbar-nav">

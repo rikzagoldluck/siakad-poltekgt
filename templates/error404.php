@@ -1,47 +1,59 @@
-<?php
-require_once ("../function/core.php");
-?>
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>ERROR 404!</title>
-</head>
-<link rel="stylesheet" href="<?= base('assets/css/style.css'); ?>" media="screen" title="no title">
-<link rel="stylesheet" href="<?= base('assets/css/bootstrap.css'); ?>" media="screen" title="no title">
-<link rel="stylesheet" href="<?= base('assets/css/sweetalert.css'); ?>" media="screen" title="no title">
-<link rel="shorcut icon" href="<?= base('images/favicon.png'); ?>">
-<script type="text/javascript" src="<?= base('assets/js/jquery.js'); ?>"></script>
-<script type="text/javascript" src="<?= base('assets/js/bootstrap.min.js'); ?>"></script>
-<script type="text/javascript" src="<?= base('assets/js/sweetalert.min.js'); ?>"></script>
-<style>
-	body{
-		background-image: url('<?= base('images/flat-3.jpg'); ?>');
-		color: #fff !important;
-	}
-	.box{
-		margin:15% auto !important;
-		padding: 20px;
-		border-radius: 5px;
-		width: 50%;
-		background: rgba(255,255,255,0.3);
-		text-align: center;
-	}
-	a{
-		color: #fff;
-		text-decoration: underline;
-	}
-</style>
-<body>
-	<div class="container">
-		<div class="row">
-			<div class="box">
-				<h1>Oops....!!!</h1>
-				<h4>Maaf! Halaman yang Anda cari tidak ditemukan!</h4>
-				<br>
-				Copyright &copy; <?= date('Y'); ?> - Politeknik Gajah Tunggal - Created by <a target="_blank" href="http://www.instagram.com/rikzagoldluck">Muhammad Rikza</a>
-			</div>
-		</div>
-	</div>
-</body>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>404 Error</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/images/icon/favicon.ico" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/themify-icons.css" />
+    <link rel="stylesheet" href="assets/css/metisMenu.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <!-- amcharts css -->
+    <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+    <!-- style css -->
+    <link rel="stylesheet" href="assets/css/typography.css" />
+    <link rel="stylesheet" href="assets/css/default-css.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <!-- modernizr css -->
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+  </head>
+
+  <body>
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <!-- preloader area start -->
+    <div id="preloader">
+      <div class="loader"></div>
+    </div>
+    <!-- preloader area end -->
+    <!-- error area start -->
+    <div class="error-area ptb--100 text-center">
+      <div class="container">
+        <div class="error-content">
+          <h2>404</h2>
+          <p>Ooops! Something went wrong .</p>
+          <a href="../index.php">Back to Dashboard</a>
+        </div>
+      </div>
+    </div>
+    <!-- error area end -->
+
+    <!-- jquery latest version -->
+    <script src="assets/js/vendor/jquery-2.2.4.min.js"></script>
+    <!-- bootstrap 4 js -->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/metisMenu.min.js"></script>
+    <script src="assets/js/jquery.slimscroll.min.js"></script>
+    <script src="assets/js/jquery.slicknav.min.js"></script>
+    <!-- others plugins -->
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/scripts.js"></script>
+  </body>
 </html>
